@@ -3,7 +3,7 @@
 
   <remote  name="origin" fetch="https://github.com/Ezurio" />
 
-  <default remote="origin" revision="refs/tags/LRD-REL-14.25.0.3" />
+  <default remote="origin" revision="refs/tags/LRD-REL-14.25.0.16" />
 
   <project path="som-external"
            name="som-external.git" />
@@ -11,11 +11,20 @@
   <project path="buildroot"
            name="wb-buildroot.git" />
 
+  <project path="som-external/externals/kernel"
+           name="wb-kernel.git" />
+
   <project path="som-external/externals/u-boot-som60"
            name="u-boot-som.git" />
 
   <project path="som-external/externals/summit-usbgadget"
            name="summit-usbgadget.git" />
+
+  <project path="som-external/externals/summit-rcm"
+           name="summit-rcm.git" />
+
+  <project path="som-external/externals/summit-rcm-rust"
+           name="summit-rcm-rust.git" />
 
   <project path="som-external/externals/lrd-userspace-examples"
            name="lrd-userspace-examples.git" />
